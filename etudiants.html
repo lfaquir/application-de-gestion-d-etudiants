@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gestion des étudiants</title>
+  <link rel="stylesheet" href="etudiants.css">
+</head>
+<body>
+  <h1>Gestion des étudiants</h1>
+
+  <!-- Tableau pour afficher les étudiants -->
+  <div class="container">
+  <table id="etudiantsTable">
+    <thead>
+      <tr>
+        <th>Id</th>
+        <th>Nom</th>
+        <th>Prenom</th>
+        <th>Âge</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody id="etudiantsTableBody"></tbody>
+  </table>
+
+  <!-- Boutons pour les actions -->
+    <div class="action-buttons">
+      <button id="chargerEtudiantsButton">Charger les étudiants</button>
+      <button id="rechercherEtudiantButton">Chercher un étudiant</button>
+      <button id="editEtudiantButton">Editer un étudiant</button>
+      <button id="supprimerEtudiantButton">Supprimer un étudiant</button>
+    </div>
+  </div>
+
+  <!-- Formulaire pour éditer un étudiant -->
+  <form id="etudiantForm" style="display: none;">
+    <input type="hidden" id="etudiantId">
+    <input type="text" id="etudiantNom" placeholder="Nom">
+    <input type="text" id="etudiantPrenom" placeholder="Prenom">
+    <input type="text" id="etudiantAge" placeholder="Age">
+    <input type="text" id="etudiantEmail" placeholder="Email">
+    <button type="button" id="sauvegarderEtudiantButton">Sauvegarder</button>
+  </form>
+
+  <script src="etudiants.js"></script>
+</body>
+</html>
+

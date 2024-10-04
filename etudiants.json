@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "nom": "El Amrani",
+        "prenom": "Omar",
+        "age": 20,
+        "email": "omar.elamrani@gmail.com"
+    },
+    {
+        "id": 2,
+        "nom": "Benkirane",
+        "prenom": "Fatima",
+        "age": 22,
+        "email": "fatima.benkirane@gmail.com"
+    },
+    {
+        "id": 3,
+        "nom": "Bouabid",
+        "prenom": "Youssef",
+        "age": 23,
+        "email": "youssef.bouabid@gmail.com"
+    },
+    {
+        "id": 4,
+        "nom": "Chaoui",
+        "prenom": "Nawal",
+        "age": 21,
+        "email": "nawal.chaoui@gmail.com"
+    },
+    {
+        "id": 5,
+        "nom": "El Idrissi",
+        "prenom": "Ahmed",
+        "age": 24,
+        "email": "ahmed.elidrissi@gmail.com"
+    },
+    {
+        "id": 6,
+        "nom": "Kabbaj",
+        "prenom": "Sara",
+        "age": 22,
+        "email": "sara.kabbaj@gmail.com"
+    },
+    {
+        "id": 7,
+        "nom": "Lahlou",
+        "prenom": "Mehdi",
+        "age": 23,
+        "email": "mehdi.lahlou@gmail.com"
+    },
+    {
+        "id": 8,
+        "nom": "Mounir",
+        "prenom": "Soumaya",
+        "age": 20,
+        "email": "soumaya.mounir@gmail.com"
+    },
+    {
+        "id": 9,
+        "nom": "El Fassi",
+        "prenom": "Hicham",
+        "age": 25,
+        "email": "hicham.elfassi@gmail.com"
+    },
+    {
+        "id": 10,
+        "nom": "Zahidi",
+        "prenom": "Meryem",
+        "age": 21,
+        "email": "meryem.zahidi@gmail.com"
+    }
+]

@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: arial;
+    box-sizing: border-box;
+}
+
+/* Styles de base */
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+    background-size: cover; /* L'image couvre tout l'arrière-plan */
+    background-position: center; /* Centre l'image */
+    flex-direction: column;
+    background-image: url("numerique_responsable-Freepik.jpg");
+}
+
+table {
+    width: 600px;
+    box-shadow: -1px 12px 12px -6px rgba(0, 0, 0, 0.5);
+}
+
+table, th, td {
+    padding: 5px;
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+    text-align: center;
+    cursor: pointer;
+}
+
+td {
+    font-size: 15px;
+    color:#000303;
+    font-weight: bold;
+}
+
+th {
+    background-color: blue;
+    color:white;
+}
+
+tr:nth-child(odd){
+    background-color: lightblue;
+}
+
+tr:nth-child(odd):hover{
+    background-color: dodgerblue;
+    color:blue;
+    transform: scale(1.5);
+    transition: transform 300ms ease-in;
+}
+
+tr:nth-child(ever){
+    background-color: #ededed;
+}
+
+tr:nth-child(odd):hover{
+    background-color: lightblue;
+    transform: scale(1.5);
+    transition: transform 300ms ease-in;
+}
+
+h1 {
+    /* Supprimer la position absolue pour que le titre reste dans le flux normal */
+    font-size: 2rem;
+    color: #1500ff;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 20px; /* Ajouter une marge inférieure */
+    text-align:center; /* Centrer le titre */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    margin-top: 20px; /* Ajouter une marge supérieure pour espacer le tableau du titre */
+}
+
+.action-buttons {
+    position: absolute;
+    bottom: 20px; /* Place les boutons à 20px du bas de la page */
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+}
+
+/* Boutons d'actions */
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 1px 20px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex: 1; /* Tous les boutons prennent la même largeur */
+    margin: 0 10px; /* Espace entre chaque bouton */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Champ de saisie */
+input[type="text"] {
+    padding: 12px;
+    margin: 10px 0;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: calc(100% - 24px);
+    transition: border 0.3s;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Formulaire d'édition */
+#formEdition {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#formEdition input {
+    display: block;
+    width: calc(100% - 24px);
+    padding: 12px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+#formEdition button {
+    width: 100%;
+    background-color: #28a745;
+    border: none;
+    padding: 12px;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#formEdition button:hover {
+    background-color: #218838;
+}
+
+
